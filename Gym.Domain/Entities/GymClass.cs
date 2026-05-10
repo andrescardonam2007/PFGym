@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Gym.Domain.Enums;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -9,6 +10,8 @@ namespace Gym.Domain.Entities
         public string Name { get; set; } = string.Empty;
 
         public DateTime Schedule { get; set; }
+
+        public ClassStatus Status { get; set; }
 
 
         //navegation Propierties
