@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Gym.Domain.Interfaces.Repositories
 {
-    public interface IMemberRepository: IGenericRepository<Member>
+    public interface IMembershipRepository: IGenericRepository<Membership>
     {
     }
 }
